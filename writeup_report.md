@@ -84,7 +84,7 @@ The final model architecture (model.py lines 38-50) consisted of a convolution n
 
 Here is a visualization of the architecture
 
-![CNN layers][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/CNN%20layers.jpg]
+![CNN layers](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/CNN%20layers.jpg)
 
 #### 3. Creation of the Training Set & Training Process
 
@@ -96,22 +96,22 @@ I then recorded the vehicle recovering from the left side and right sides of the
  These images show what a recovery looks like starting from the road side:
 
 
-![1][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/1.jpg]
-![2][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/2.jpg]
-![3][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/3.jpg]
-![4][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/4.jpg]
-![5][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/5.jpg]
-![6][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/6.jpg]
+![1](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/1.jpg)
+![2](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/2.jpg)
+![3](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/3.jpg)
+![4](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/4.jpg)
+![5](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/5.jpg)
+![6](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1/6.jpg)
 
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would helpful to solve  emergency problems. For example, here is an image that has then been flipped:
-![1][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/1.jpg]
-![2][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/2.jpg]
-![3][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/3.jpg]
-![4][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/4.jpg]
-![5][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/5.jpg]
-![6][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/6.jpg]
+![1](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/1.jpg)
+![2](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/2.jpg)
+![3](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/3.jpg)
+![4](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/4.jpg)
+![5](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/5.jpg)
+![6](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/6.jpg)
 
 And then I use three cameras images to train CNN.
 
@@ -122,4 +122,4 @@ I finally randomly shuffled the data set and put 20% of the data into a validati
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 3. I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
 #### 4. Validation Loss Metrics
-![validation][https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1.png] 
+![validation](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/1.png)
