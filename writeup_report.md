@@ -106,6 +106,8 @@ I then recorded the vehicle recovering from the left side and right sides of the
 Then I repeated this process on track two in order to get more data points.
 
 To augment the data sat, I also flipped images and angles thinking that this would helpful to solve  emergency problems. For example, here is an image that has then been flipped:
+
+
 ![1](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/1.jpg)
 ![2](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/2.jpg)
 ![3](https://github.com/rzhengyang/CarND-Behavioral-Cloning-P3-master/blob/master/img/2/3.jpg)
